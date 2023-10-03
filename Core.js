@@ -40,10 +40,11 @@ let { covid } = require('./lib/covid.js');
 const { Gempa } = require("./lib/gempa.js");
 
 const spaceemojis = ["🌌", "🌠", "🚀", "🪐", "🌟"];     // list of emojis for Space CMDs.
+const manyemojis = ["😄", "👍", "👏", "👌", "🥇", "🌟", "🎉", "🙌", "🤩", "💯", "🔥", "✨", "🚀", "💖", "🌈", "🌞", "🌠", "🌼", "💪", "😎", "💫", "💓", "🎈", "🎁", "🍾", "🎊", "🥳", "👑", "🌺", "🌻", "🌸"];
 const os = require('os');       // for os info
 
 const gis = require("g-i-s");
-const { MessageType } = require('baileysjs');
+const { MessageType } = require('@whiskeysockets/baileys');
 const {
   FajarNews, 
   BBCNews,
@@ -1980,20 +1981,20 @@ break;
           */              
 
                           
-case 'emojimix': {
-  if (isBan) return reply(mess.banned);	 			
-if (isBanChat) return reply(mess.bangc);
-A17.sendMessage(from, { react: { text: "🫡" , key: m.key }})
+        case 'emojimix': {
+        if (isBan) return reply(mess.banned);
+        if (isBanChat) return reply(mess.bangc);
+        A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
-if (!q) reply(`*Example :* ${prefix + command} 😂+🤒`)
-let [emoji1, emoji2] = q.split`+`
-let kuntuh = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
-for (let res of kuntuh.results) {
-let encmedia = await A17.sendImageAsSticker(from, res.url, m, { packname: global.packname, author: global.author, categories: res.tags })
-await fs.unlinkSync(encmedia)
-}
-}
-break;
+        if (!q) reply(`*Example :* ${prefix + command} 😊+🌹`)
+        let [emoji1, emoji2] = q.split`+`
+        let kuntuh = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
+        for (let res of kuntuh.results) {
+          let encmedia = await A17.sendImageAsSticker(from, res.url, m, { packname: global.packname, author: global.author, categories: res.tags })
+          await fs.unlinkSync(encmedia)
+        }
+      }
+        break;
 
 
 
@@ -6670,7 +6671,8 @@ break;
 ❒│▸  *Tɪᴍᴇ : ${kaitime}* ⌚
 ❒│▸  *Dᴀᴛᴇ : ${kaidate}* 📆
 ❒│▸  *Oᴡɴᴇʀ : ${global.OwnerName}* 🎐
-❒│▸  *Prefix : ${prefix}* 🕹
+❒│▸  *Pʟᴜɢɪɴꜱ : 『 350 』✨
+❒│▸  *Pʀᴇꜰɪx : 『  ${prefix} 』*  💡
 ❒│▸  *Rᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}* 💻
 ❒│▸ *Dᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ Sʟᴀꜱʜᴇʀ-Sᴇʀ* 🐉
 ┬│
@@ -6760,8 +6762,8 @@ break;
 ⬡│▸  ${prefix}ᴀɴᴛɪʟɪɴᴋꜰʙ
 ⬡│▸  ${prefix}ᴀɴᴛɪʟɪɴᴋɪɢ
 ⬡│▸  ${prefix}ᴀɴᴛɪʟɪɴᴋᴛᴡɪᴛ
-⬡│▸  ${prefix}ᴀɴᴛɪᴡᴀᴍᴇ     Ⓟ
-⬡│▸  ${prefix}ᴀɴᴛɪʟɪɴᴋᴀʟʟ     Ⓟ
+⬡│▸  ${prefix}ᴀɴᴛɪᴡᴀᴍᴇ     
+⬡│▸  ${prefix}ᴀɴᴛɪʟɪɴᴋᴀʟʟ     
 ┬│
 │╰────────────···▸▸
 └───────────────···▸▸▸

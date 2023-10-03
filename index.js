@@ -12,7 +12,7 @@ const {
   makeInMemoryStore,
   jidDecode,
   proto,
-} = require("baileysjs");
+} = require("@whiskeysockets/baileys");
 const pino = require("pino");
 const fs = require("fs");
 const chalk = require("chalk");
@@ -62,14 +62,14 @@ async function startA17() {
       "green"
     )
   );
-  console.log(color('\nHello, I am Slasher, the Founder of this bot.\n\nThanks for using: Xlicon Bot.', 'aqua'))
+  console.log(color('\nHello, I am Slasher, the Developer of this bot.\n\nThanks for using: Xlicon Bot.', 'aqua'))
   console.log(color('\nYou can follow me on GitHub: ahil15', 'aqua'))
 
   const { state, saveCreds } = await useMultiFileAuthState("./XLICON-SESSION");
   const A17 = A17Connect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["Xlicon Bot", "Safari", "3.O"],
+    browser: ["XLICON-2.0", "Safari", "3.O"],
     auth: state,
   });
 

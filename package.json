@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Kao0071/A17.git"
+        "url": "git+https://github.com/ahil15/Xlicon-v2.git"
     },
     "keywords": [
         "md-bot"
@@ -38,10 +38,10 @@
         "@shineiichijo/mal-news-scraper": "^0.0.2",
         "@shineiichijo/marika": "^2.0.6",
         "@shineiichijo/nhentai-pdf": "^1.0.5",
+        "@whiskeysockets/baileys": "^6.4.1",
         "anime-wallpaper": "^1.1.1",
         "awesome-phonenumber": "^2.70.0",
         "axios": "^0.24.0",
-        "baileysjs": "^6.2.2",
         "canvacord": "^5.4.10",
         "cfonts": "^2.9.0",
         "chalk": "^4.1.2",

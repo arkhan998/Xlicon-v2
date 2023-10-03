@@ -3,8 +3,8 @@
 
 <p align="center">  
   <a href="https://xliconmd2.vercel.app/">
-    <img alt="X-2.0" height="300" src="https://i.ibb.co/WfS7yQS/20230929-154551.jpg">
-    <h1 align="center">XLICON-2.O<br></h1>
+    <img alt="X-2.0" height="300" src="https://i.ibb.co/dBXGd0b/20231002-103305.jpg">
+    <h1 align="center">XLICON-BOT 2.O</h1>
   </a>
 </p>
 <p align="center">
@@ -17,15 +17,12 @@
 <a href="https://github.com/ahil15/Xlicon-v2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ahil15/Xlicon-v2?label=Watching&style=social"></a>
 </p>
 
----
-
-## `Notice` ⭐
-
+#### 
 If you re-upload  anything from my ***REPOSITORY*** give me ***Credit*** Else I can Take Legal Action On You!⚠
 
----
+***
 
-## `SETUP`
+#### SETUP
 
 1. Fork the repo
     <br>
@@ -35,21 +32,10 @@ If you re-upload  anything from my ***REPOSITORY*** give me ***Credit*** Else I 
     <br>
 <a href='https://replit.com/@ahil15/XLICON-Multi-qr?v=1' target="_blank"><img alt='SCAN QR-1' src='https://img.shields.io/badge/Scan_qr-1-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
 
----
+#### DEPLOY STEPS
 
-## `Installation` 📲
-
-- Fork [`Xlicon-v2`](https://github.com/ahil15/Xlicon-v2/fork) repository and give a Star to the Repository
-
-- Edit [`config.js`](https://github.com/ahil15/Xlicon-v2/blob/master/config.js) file on your own repository
-
-- Upload your bot number and owner number there
-
-- Name your Bot
-
-- Name your Sticker Package name
-
-
+1. Fork This Repository 
+2. Update [`config.js`](https://github.com/ahil15/Xlicon-v2/blob/master/config.js)
 ```js
 global.Owner = ["8801853262586"]; 
 global.OwnerNumber = ["8801853262586"];
@@ -58,169 +44,112 @@ global.OwnerName = "Slasher";
 global.BotName = "X-2.0";
 ```
 
-- Click the [`Scan Qr`](https://replit.com/@ahil15/XLICON-Multi-qr?v=1) from ***Xlicon-v2*** Repository
+#### DEPLOY TO HEROKU 
 
-- Scan the Qr on your Bot Number
+1. If You don't have a account in Heroku. Create a account.
+    <br>
+<a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-- After Scanning the qr you will get `creds.json` file in your number
+2. Now Deploy
+    <br>
+<a href='https://xlicheroku.vercel.app/deploy.html' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-- ***Download*** `creds.json` file
+#### DEPLOY TO CODESPACE
 
-- Upload the `creds.json` file on ***XLICON-SESSION*** folder
+3. If You don't have a account in Codespace. Create a account.
+    <br>
+<a href='https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fcodespaces' target="_blank"><img alt='Codespaces' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=visualstudiocode' width="96.35" height="28"/></a></p>
 
+4. Now Deploy
+    <br>
+<a href='https://github.com/codespaces/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=visualstudiocode' width="96.35" height="28"/></a></p>
+
+#### DEPLOY TO OKTETO
+
+5. If You don't have a account in Okteto. Create a account.
+    <br>
+<a href='https://www.okteto.com/pricing/?plan=SaaS' target="_blank"><img alt='Okteto' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=opera' width="96.35" height="28"/></a></p>
+
+6. Now Deploy
+    <br>
+<a href='https://xlicheroku.vercel.app/deploy-okt.html' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=opera' width="96.35" height="28"/></a></p>
+
+#### DEPLOY TO RAILWAY
+
+7. If You don't have a account in Railway. Create a account.
+    <br>
+<a href='https://railway.app/login' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=railway' width="96.35" height="28"/></a></p>
+
+8. Now Deploy
+    <br>
+<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=railway' width="96.35" height="28"/></a></p>
+
+#### DEPLOY TO MONGENIUS
+
+9. If You don't have a account in Mongenius. Create a account.
+    <br>
+<a href='https://studio.mogenius.com/user/registration' target="_blank"><img alt='Mongenius' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=genius' width="96.35" height="28"/></a></p>
+
+10. Now Deploy
+    <br>
+<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=genius' width="96.35" height="28"/></a></p>
+
+#### DEPLOY TO COOLIFY
+
+11. If You don't have a account in Coolify. Create a account.
+    <br>
+<a href='https://app.coolify.io/register' target="_blank"><img alt='Coolify' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=C' width="96.35" height="28"/></a></p>
+
+12. Now Deploy
+    <br>
+<a href='https://coolify.io/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=C' width="96.35" height="28"/></a></p>
+
+#### DEPLOY TO RENDER
+
+13. If You don't have a account in Render. Create a account.
+    <br>
+<a href='https://dashboard.render.com/register' target="_blank"><img alt='Render' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+
+14. Now Deploy
+    <br>
+<a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
 
 ---
 # `Guide`📕
 
-- [Full Explanation](https://github.com/ahil15/Xlicon-v2/blob/main/guide.md)
+- [Full Deploy Explanation & Termux Deploy & Vps Deploy](https://github.com/ahil15/Xlicon-v2/blob/main/guide.md)
 ---
 
-## `DEPLOY STEPS`
-# 
-1. Fork This Repository 
-2. Update [`config.js`](https://github.com/ahil15/Xlicon-v2/blob/master/config.js)
-3. Scan The Qr On your bot number... You will get `creds.json`
-3. Upload the creds.json file to XLICON-SESSION folder
-4. Make account on your host
-5. Connect Your Repository to your web host site
-# 
-# 
-
----
-
-## `DEPLOY TO Heroku`
-
-1. Now Deploy
-    <br>
-<p align="center"><a href="https://xlicheroku.vercel.app/deploy.html"> <img src="https://img.shields.io/badge/DEPLOY HEROKU-h?color=black&style=for-the-badge&logo=heroku"></a>
-
-<p align="center"><a href="https://youtu.be/HBpZB1HYoPk?si=a0-C60sieMnMX0xs"><img title="" src="https://img.shields.io/badge/heroku%20TUTORIAL-red?style=for-the-badge&logo=youtube"></a>
-
----
-## `DEPLOY TO Codespaces`
-
-2. Now Deploy
-    <br>
-<p align="center"><a href="https://github.com/codespaces/new"> <img src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode"></a>
-
----
-
-## `DEPLOY TO Railway`
-
-3. Now Deploy
-    <br>
-<p align="center"><a href="https://railway.app/new"> <img src="https://img.shields.io/badge/DEPLOY RAILWAY-h?color=black&style=for-the-badge&logo=Railway"></a>
-
----
-
-## `DEPLOY TO Mongenius`
-
-4. Now Deploy
-    <br>
-<p align="center"><a href="https://studio.mogenius.com/"> <img src="https://img.shields.io/badge/DEPLOY MOGENIUS-h?color=black&style=for-the-badge&logo=genius"></a>
-
----
-
-## `DEPLOY TO Render`
-
-5. Now Deploy
-    <br>
-<p align="center"><a href="https://dashboard.render.com"> <img src="https://img.shields.io/badge/DEPLOY RENDER-h?color=black&style=for-the-badge&logo=render"></a>
-
----
-
-## `DEPLOY TO Coolify`
-
-6. Now Deploy
-    <br>
-<p align="center"><a href="https://coolify.io/"> <img src="https://img.shields.io/badge/-DEPLOY COOLIFY-black?style=for-the-badge&logo=C"></a>
-
----
-
-## `DEPLOY TO Uffizzi`
-
-7. Now Deploy
-    <br>
-<p align="center"><a href="https://www.uffizzi.com/"> <img src="https://img.shields.io/badge/-DEPLOY UFFIZZI-black?style=for-the-badge&logo=D"></a>
-
-## `Termux Deploy`➡🔋
-
-8. Download Termux latest version
-
-  <br>
-<p align="center"><a href="https://m.apkpure.com/termux/com.termux/download"> <img src="https://img.shields.io/badge/Termux%20Latest-black?style=for-the-badge&logo=T" width="160" height="30"/></a></p>
-
-
-
-```
-termux-setup-storage
-apt update
-apt upgrade
-pkg update && pkg upgrade
-pkg install bash
-pkg install libwebp
-pkg install git -y
-pkg install nodejs -y
-pkg install ffmpeg -y 
-pkg install wget
-pkg install imagemagick -y
-git clone https://github.com/ahil15/Xlicon-v2
-cd Xlicon-v2
-npm i
-npm start
-```
-
-- Paste These all commands one by one and serialized to run the bot
-
-- Now your Bot is ready to use
-
-
-##  🛡️ `Windows Cmd & Vs` 🛡️
-
-* [`Download ffmpeg`](https://ffmpeg.org/download.html#build-windows) and set path
-* [`Download wget`](https://eternallybored.org/misc/wget/releases/) and set path
-* [`Download Node JS`](https://nodejs.org/en/download/)
-* [`Download Git`](https://git-scm.com/downloads)
-* [`Download Libwebp`](https://developers.google.com/speed/webp/download)
-
-```cmd
-> git clone https://github.com/ahil15/Xlicon-v2.git
-> cd Xlicon-v2
-> npm i
-> npm start
-```
-
-- Run these commands one by one
-
-
-## `Command For 24/7` 🔷🔋
-```js
-npm i -g forever && forever index.js && forever save && forever logs
-```
-
----
-
-     
-## `Support`
-
-For our bot support, Do email [ infiniteytff@gmail.com ] or join our Whatsapp Support Group.
-
-<a href="https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-lime?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-
-<a href="https://wa.me/8801853262586"><img src="https://img.shields.io/badge/Contact -SLASHER-SER?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
-<a href="https://instagram.com/sla.sher_"><img src="https://img.shields.io/badge/Contact -SLASHER?style=for-the-badge&logo=instagram&logoColor=red" />
-
+## ```Support Me```
+<p align="center">
+<a href="https://www.instagram.com/sla.sher_"><img src="https://img.shields.io/badge/Contact -SLASHER?style=for-the-badge&logo=instagram&logoColor=white" />
+<a href="https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://www.youtube.com/@infinite9452"><img src="https://img.shields.io/badge/Subscribe-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://www.youtube.com/@infinite9452" /><br>
+</p>
 
+1. **Buy Me a Coffee**: Your support will help me stay motivated and continue working on exciting projects like this one.
 
-<a href="https://www.buymeacoffee.com/slashernolongerlive"><img src="https://img.buymeacoffee.com/button-api/?text=Support this project&emoji=&slug=slashernolongerlive&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" width="200" height="38.45"/></a></p>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/slashernolongerlive">
+  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+</a>
 
 <h2 align="center"> Star the repo if u like it🌟
 </h2>
 
-</br> 
+
+ 
+ ## 🎯 Developers 🎯
+  <div align="center">
+  
+| [![SlasherOfficial](https://github.com/ahil15.png?size=150)](https://github.com/ahil15) |
+|----|
+| [ N ᴏ ᴛ   S ʟ ᴀ ꜱ ʜ ᴇ ʀ ](https://github.com/ahil15) |
+|  owner, Bug Fixes, Modules, updates , developer |
+
+  </div>
+  
+   
+  </br> 
 
 <h2 align="center">  Reminder
 </h2>
@@ -229,9 +158,9 @@ For our bot support, Do email [ infiniteytff@gmail.com ] or join our Whatsapp Su
 - I am not responsible for banning your account.
 - Use at your own risk by keeping this warning in mind.
  
- 
- 
- ## `Special Thanks To`
+  
+  
+   ## `Special Thanks To`
 - 1. ✨ Kai ( Bot Base )
 - 2. ✨ Abhishek ( External Modifications and upgrades )
 - 3. ✨ Guru ( Web modification and ideas )
@@ -249,3 +178,6 @@ For our bot support, Do email [ infiniteytff@gmail.com ] or join our Whatsapp Su
 <h1 align="center"> ✧ Thanks To Kai!!!✧
 </h1>
 
+---
+
+  
